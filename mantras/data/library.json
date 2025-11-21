@@ -1,0 +1,103 @@
+
+[
+  {
+    "id": "OM",
+    "tipo": "mantra",
+    "titulo": "AUM/OM",
+    "texto": "OM",
+    "idioma": "Sánscrito",
+    "devanagari": "ॐ",
+    "significado": "Sonido primordial; evoca la totalidad: creación, preservación y transformación.",
+    "etiquetas": ["universal", "equilibrio"],
+    "fuente": "Ṛg Veda"
+  },
+  {
+    "id": "gayatri-mantra",
+    "tipo": "mantra",
+    "titulo": "Gayatri Mantra",
+    "texto": "Om bhūr bhuvaḥ svaḥ, tat savitur vareṇyaṃ, bhargo devasya dhīmahi, dhiyo yo naḥ pracodayāt.",
+    "idioma": "Sánscrito",
+    "devanagari": "ॐ भूर् भुवः स्वः । तत्सवितुर्वरेण्यं । भर्गो देवस्य धीमहि । धियो यो नः प्रचोदयात् ॥",
+    "significado": "Meditamos en la luz del Sol divino; que esa sabiduría ilumine nuestro entendimiento.",
+    "etiquetas": ["luz", "sabiduría"],
+    "fuente": "Ṛg Veda 3.62.10"
+  },
+  {
+    "id": "Om namaḥ śivāya",
+    "tipo": "mantra",
+    "titulo": "Om namaḥ śivāya",
+    "texto": "Om namaḥ śivāya",
+    "idioma": "Sánscrito",
+    "devanagari": "ॐ नमः शिवाय",
+    "significado": "Me inclino ante Śiva, conciencia pura; invoca purificación y transformación.",
+    "etiquetas": ["protección", "transformación"],
+    "fuente": "Ṛg Veda"
+  },
+  {
+    "id": "Jay Hanuman",
+    "tipo": "mantra",
+    "titulo": "Jay Hanuman",
+    "texto": "Jay Hanuman, Jay Sita Rām",
+    "idioma": "Sánscrito",
+    "devanagari": "जय हनुमान, जय सीताराम्",
+    "significado": "Honra simultáneamente la fuerza espiritual y el amor, compasión y Dharma.",
+    "etiquetas": ["apertura del corazón", "alegría interna"],
+    "fuente": "Yoga"
+  },
+  {
+    "id": "Mā",
+    "tipo": "mantra",
+    "titulo": "Mā",
+    "texto": "Mā",
+    "idioma": "Sánscrito",
+    "devanagari": "म",
+    "significado": "Sílaba relacionada con la madre universal, la energía de nutrición, contención y compasión.",
+    "etiquetas": ["cuidado", "amor primordial"],
+    "fuente": "Yoga"
+  },
+  {
+    "id": "Hanumān Chālīsa",
+    "tipo": "himno",
+    "titulo": "Hanumān Chālīsa",
+    "texto": "Bhajelo Ji Hanuman!\nBhajelo Ji Hanuman!\n\nŚrīguru charana saroja raja,\nnija mana mukuru sudhāri\nbaranauṁ raghubara bimala jasu,\njo dāyaku phala chāri\nBuddhihīna tanu jānike,\nsumirauṃ pavana-kumāra\nBala buddhi bidyā dehu mohiṃ,\nharahu kalesa bikāra\n\nSiyāvarā rāmachandra pada jai sharanam\n\n1. Jaya hanumāna jñāna guna sāgara,\nJaya kapīsa tihuṁ loka ujāgara\n2. Rāma dūta atulita bala dhāmā\nAñjani-putra pavanasuta nāmā\n3. Mahābīra bikrama bajaraṅgī\nKumati nivāra sumati ke saṅgī\n4. Kañchana barana birāja subesā\nKānana kuṇḍala kuñchita kesā\n\n5. Hātha bajra au dhvajā_birājai\nKāṁdhe mūṁja janeū sājai\n6. Saṅkara suvana kesarī nandana\nTeja pratāpa mahā jaga bandana\n7. Bidyāvāna gunī ati chātur\nRāma Kāja karibe ko ātura\n8. Prabhu charitra sunibe ko rasiyā\nRāma laṣana sītā mana basiyā\n\n9. Sūkshma rūpa dharisiyahiṃ_dikhāvā\nBikaṭa rūpa dhari lanka jarāvā\n10.Bhīma rūpa dhari_asura saṁhāre\nRāmachandra ke kāja saṁvāre\n11.Lāya sanjīvana lakhana jiyāye\nŚrī raghubīra haraṣi ura lāye\n12.Raghupati kīnhī bahuta baḍāī\nTuma_mama_priya bharatahi sama bhāī\n\n13.Sahasa badana tumharo_jasa gāvaiṃ\nAsa kahi śhrīpati kaṇṭha lagāvaiṃ\n14.Sanakādika brahmādi munīsā\nNārada sārada sahita ahīsā\n15.Jama kubera digapāla jahāṁ te\nKabi kobida kahi sake kahāṁ te\n16.Tuma_upakāra sugrīvahiṃ kīnhā\nRāma milāya rāja_pada_dīnhā\n\n17.Tumharo mantra bibhīṣana mānā\nLaṅkeshvara bhae saba jaga_jānā\n18.Juga sahasra jojana para bhānū\nLīlyo tāhi madhura phala jānū\n19.Prabhu mudrikā meli mukha māhīṃ\nJaladhi lāṁghi gaye acharaja nāhīṃ\n20.Durgama kāja jagata ke jete\nSugama anugraha tumhare tete\n\n21.Rāma duāre tuma rakhavāre\nHota na ājñā binu paisāre\n22.Saba_sukha_lahai tumhārī saranā\nTuma rachchhaka kāhū ko ḍara nā\n23.Āpana teja samhāro āpai\nTīnoṃ loka hāṁka teṃ kaṁpai\n24.Bhūta pisācha nikaṭa nahiṃ āvai\nMahābīra jaba nāma sunāvai\n\n25.Nāsai roga harai saba pīrā\nJapata nirantara hanumata bīrā\n26.Saṅkaṭa_te hanumāna chhuṛāvai\nMana_krama_bachana dhyāna jo lāvai\n27.Saba para rāma tapasvī rājā\nTina ke kāja sakala tuma sājā\n28.Aura manoratha jo koī lāvai\nSoī amita jīvana phala pāvai\n\n29.Chāroṃ juga pratāpa tumhārā\nHai parasiddha jagata ujiyārā\n30.Sādhu santa ke tuma rakhavāre\nAsura nikandana rāma dulāre\n31.Aṣṭa siddhi nau nidhi ke dātā\nAsa_bara_dīna jānakī mātā\n32.Rāma rasāyana tumhare pāsā\nSadā raho raghupati ke dāsā\n\n33.Tumhare bhajana rāma ko pāvai\nJanama janama ke dukha bisarāvai\n34.Anta kāla raghubara pura jāī\nJahāṁ janma hari-bhakta kahāī\n35.Aura devatā chitta na dharaī\nHanumata sei sarba sukha karaī\n36.Saṅkaṭa kaṭai miṭai saba pīrā\nJo sumirai hanumata balabīrā\n\n37.Jai jai jai hanumāna gosāīṃ\nKṛpā karahu gurú deva kī nāīṃ\n38.Jo sata bāra pāṭha kara koī\nChūṭahi bandi mahā sukha hoī\n39.Jo_yaha paḍhai hanumāna chālīsā\nHoya siddhi sākhī gaurīsā\n40.Tulasīdāsa sadā hari cherā\nKījai nātha hṛdaya maṁha ḍerā\n\npavanatanaya saṅkaṭa harana,\nmaṅgala mūrati rūpa\nrāma lakhana sītā sahita,\nhṛdaya basahu sura bhūpa\n\nSiyāvarā rāmachandra pada jai sharanam\n",
+    "idioma": "Sánscrito",
+    "devanagari": " हनुमान चालीसा",
+    "significado": "Canto devocional que honra a Hanuman, la encarnación de la energía del coraje, la sabiduría y la impecable entrega al Dharma.",
+    "etiquetas": ["devoción", "fortaleza", "conocimiento"],
+    "fuente": "Yoga"
+  },
+  {
+    "id": "Ma Durga",
+    "tipo": "mantra",
+    "titulo": "Ma Durga",
+    "texto": "Hey! Ma Durga, Hey! Ma Durga\n\nJaya Jagatambe, Jaya Jaya Jagatambe",
+    "idioma": "Sánscrito",
+    "devanagari": "माँ दुर्गा",
+    "significado": "¡Victoria a Ma Durga, la Madre del Mundo!.",
+    "etiquetas": ["protección", "poder creativo"],
+    "fuente": "Yoga"
+  },
+ {
+    "id": "Kundalini Shakti",
+    "tipo": "mantra",
+    "titulo": "Kundalini Shakti",
+    "texto": "Om Shakti Ma\nKundalini Shakti Ma\n\nJaya Matakali Namaha\nKalidevi Kalidurgue Namaha",
+    "idioma": "Sánscrito",
+    "devanagari": "कुण्डलिनी शक्ति",
+    "significado": "se refiere a la invocación del poder primordial y la energía creadora, personificada como la Divina Madre o Shakti",
+    "etiquetas": ["energia primordial", "poder creativo"],
+    "fuente": "Yoga"
+  },
+ {
+    "id": "Om Ganesha",
+    "tipo": "mantra",
+    "titulo": "Om Ganesha",
+    "texto": "Om Ganesha Om Ganapati Om",
+    "idioma": "Sánscrito",
+    "devanagari": "ॐ गं गणपतये नमः",
+    "significado": "Mis saludos al Señor Ganesha.",
+    "etiquetas": ["vencer obstáculos", "protección"],
+    "fuente": "Yoga"
+  }
+
+]
