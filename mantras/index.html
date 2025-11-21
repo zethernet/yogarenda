@@ -1,0 +1,412 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca de Mantras</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --accent: #f59e0b;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --border: #1f2937;
+      --shadow: 0 16px 60px rgba(0, 0, 0, 0.35);
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: radial-gradient(circle at 20% 20%, rgba(245, 158, 11, 0.08), transparent 35%),
+                  radial-gradient(circle at 80% 0%, rgba(59, 130, 246, 0.12), transparent 45%),
+                  var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: inline;
+      align-items: center;
+      justify-content: center;
+      padding: 48px 16px 64px;
+    }
+
+    .page {
+      max-width: 1100px;
+      width: 100%;
+      background: rgba(15, 23, 42, 0.7);
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--border);
+      border-radius: 32px;
+      box-shadow: var(--shadow);
+      padding: 32px 28px;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      margin-bottom: 28px;
+      flex-wrap: wrap;
+    }
+
+    .avatar {
+      width: 64px;
+      height: 64px;
+      border-radius: 20px;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(145deg, rgba(245, 158, 11, 0.2), rgba(59, 130, 246, 0.25));
+      border: 1px solid rgba(245, 158, 11, 0.35);
+      color: #fbbf24;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(26px, 3vw, 32px);
+    }
+
+    .lead {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .search-card {
+      background: linear-gradient(135deg, rgba(245, 158, 11, 0.06), rgba(59, 130, 246, 0.05));
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 22px;
+      display: grid;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .label {
+      font-size: 13px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .search-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    input[type="search"] {
+      width: 100%;
+      padding: 14px 16px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      background: rgba(15, 23, 42, 0.8);
+      color: var(--text);
+      font-size: 16px;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    input[type="search"]:focus {
+      outline: none;
+      border-color: rgba(245, 158, 11, 0.6);
+      box-shadow: 0 0 0 4px rgba(245, 158, 11, 0.15);
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .pill {
+      padding: 8px 12px;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .pill:hover { color: var(--text); border-color: rgba(245, 158, 11, 0.5); }
+
+    .result-card {
+      position: relative;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      padding: 24px 22px;
+      margin-top: 14px;
+      box-shadow: var(--shadow);
+    }
+
+    .result-card h2 { margin: 0 0 8px; font-size: 24px; }
+    .result-card .meta { color: var(--muted); margin-bottom: 12px; }
+
+    .devanagari {
+      font-size: 20px;
+      margin: 16px 0 8px;
+      color: #c7d2fe;
+    }
+
+    .texto { line-height: 1.6; margin: 0 0 8px; }
+
+    .etiquetas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 10px 0 16px;
+    }
+
+    .tag {
+      background: rgba(245, 158, 11, 0.12);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      color: #fcd34d;
+      padding: 6px 10px;
+      border-radius: 12px;
+      font-size: 12px;
+    }
+
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    button {
+      padding: 12px 14px;
+      border-radius: 14px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: linear-gradient(135deg, rgba(245, 158, 11, 0.9), rgba(234, 179, 8, 0.85));
+      color: #0f172a;
+      cursor: pointer;
+      font-weight: 700;
+      box-shadow: 0 10px 25px rgba(245, 158, 11, 0.25);
+      transition: transform 0.1s ease, box-shadow 0.2s ease;
+    }
+
+    button.secondary {
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--text);
+      border-color: var(--border);
+      box-shadow: none;
+    }
+
+    button:hover { transform: translateY(-1px); }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .small-card {
+      padding: 18px;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border);
+      min-height: 180px;
+      display: grid;
+      gap: 8px;
+      align-content: start;
+    }
+
+    .empty { color: var(--muted); margin-top: 16px; }
+
+    @media (max-width: 640px) {
+      body { padding: 24px 12px; }
+      .page { padding: 22px 18px; }
+      .search-row { grid-template-columns: 1fr; }
+      button { width: 100%; justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <div class="avatar">ॐ</div>
+      <div>
+        <h1>Mantras</h1>
+        <p class="lead">Busca y comparte.</p>
+      </div>
+    </header>
+
+    <section class="search-card">
+      <div class="label">Buscador</div>
+      <div class="search-row">
+        <form id="search-form" style="display: contents;">
+          <input type="search" id="search-input" list="sugerencias" placeholder="Ejemplo: Gayatri" autocomplete="off" required>
+          <datalist id="sugerencias"></datalist>
+        </form>
+        <button id="buscar-btn" type="button">Buscar mantra</button>
+      </div>
+      <div class="label">Ejemplos populares</div>
+      <div class="pill-row" id="ejemplos"></div>
+    </section>
+
+    <section id="resultado"></section>
+
+    <!--
+    <section>
+      <div class="label">Colección inicial</div>
+      <div class="grid" id="coleccion"></div>
+    </section>
+    -->
+  </main>
+
+  <script>
+    const resultado = document.getElementById('resultado');
+    const ejemplos = document.getElementById('ejemplos');
+    const sugerencias = document.getElementById('sugerencias');
+    const searchInput = document.getElementById('search-input');
+    const searchForm = document.getElementById('search-form');
+    const buscarBtn = document.getElementById('buscar-btn');
+
+    let biblioteca = [];
+
+    async function cargarDatos() {
+      try {
+        const respuesta = await fetch('data/library.json');
+        if (!respuesta.ok) throw new Error('No se pudo cargar la biblioteca.');
+        biblioteca = await respuesta.json();
+        popularUI();
+      } catch (error) {
+        resultado.innerHTML = `<p class="empty">${error.message} Verifica la ruta del archivo JSON o vuelve a intentarlo.</p>`;
+      }
+    }
+
+    function normalizarTexto(texto) {
+      return texto
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/\p{Diacritic}/gu, '')
+        .trim();
+    }
+
+   function popularUI() {
+      sugerencias.innerHTML = '';
+      ejemplos.innerHTML = '';
+      biblioteca.slice(0,3).forEach(item => {
+        const option = document.createElement('option');
+        option.value = item.titulo;
+        sugerencias.appendChild(option);
+
+        const chip = document.createElement('button');
+        chip.type = 'button';
+        chip.className = 'pill';
+        chip.textContent = item.titulo;
+        chip.addEventListener('click', () => mostrarDetalle(item.titulo));
+        ejemplos.appendChild(chip);
+      });
+
+    // renderColeccion();
+    }
+
+    function renderColeccion() {
+      coleccion.innerHTML = '';
+      biblioteca.forEach(item => {
+        const card = document.createElement('article');
+        card.className = 'small-card';
+        card.innerHTML = `
+          <div class="label">${item.tipo}</div>
+          <strong>${item.titulo}</strong>
+          <p class="texto">${item.texto.slice(0, 120)}...</p>
+          <div class="etiquetas">${item.etiquetas.map(tag => `<span class="tag">${tag}</span>`).join('')}</div>
+        `;
+        card.addEventListener('click', () => mostrarDetalle(item.titulo));
+        coleccion.appendChild(card);
+      });
+    }
+
+    function mostrarDetalle(busqueda) {
+      const query = normalizarTexto(busqueda);
+      if (!query) {
+        resultado.innerHTML = `<p class="empty">Escribe el nombre de un mantra.</p>`;
+        return;
+      }
+
+      const matches = biblioteca.filter(item => {
+        const titulo = normalizarTexto(item.titulo);
+        const etiquetas = normalizarTexto(item.etiquetas.join(' '));
+        return titulo.includes(query) || etiquetas.includes(query);
+      });
+
+      if (!matches.length) {
+        resultado.innerHTML = `<p class="empty">No encontramos "${busqueda}" en la colección. Prueba con otro nombre.</p>`;
+        return;
+      }
+
+      const principal = matches[0];
+      const subtitulo = matches.length > 1 ? `<p class="meta">Mostrando el resultado más relevante (hay ${matches.length - 1} coincidencia(s) adicional(es)).</p>` : '';
+      resultado.innerHTML = subtitulo + crearCard(principal);
+      prepararAcciones(principal);
+    }
+
+    function crearCard(item) {
+      return `
+        <article class="result-card" id="${item.id}">
+          <div class="label">${item.tipo}</div>
+          <h2>${item.titulo}</h2>
+          <p class="texto" style="white-space:pre-line">${item.texto}</p>
+          <p class="devanagari">Sánscrito: ${item.devanagari}</p>
+          <p class="texto"><strong>Significado:</strong> ${item.significado}</p>
+          <p class="meta">Fuente: ${item.fuente}</p>
+          <div class="etiquetas">${item.etiquetas.map(tag => `<span class="tag">${tag}</span>`).join('')}</div>
+          <div class="actions">
+            <button id="copiar">Copiar</button>
+            <button class="secondary" id="compartir">Compartir</button>
+          </div>
+        </article>
+      `;
+    }
+
+    function prepararAcciones(item) {
+      const copiarBtn = document.getElementById('copiar');
+      const compartirBtn = document.getElementById('compartir');
+      const texto = `${item.titulo}\n\n${item.texto}\n\n${item.idioma}: ${item.devanagari}\nSignificado: ${item.significado}`;
+
+      copiarBtn.addEventListener('click', async () => {
+        await navigator.clipboard.writeText(texto);
+        copiarBtn.textContent = 'Copiado ✓';
+        setTimeout(() => copiarBtn.textContent = 'Copiar', 1400);
+      });
+
+      compartirBtn.addEventListener('click', async () => {
+        const compartirData = {
+          title: item.titulo,
+          text: texto,
+          url: location.href.split('#')[0] + '#' + item.id
+        };
+
+        if (navigator.share) {
+          await navigator.share(compartirData);
+        } else {
+          await navigator.clipboard.writeText(`${texto}\n${compartirData.url}`);
+          compartirBtn.textContent = 'Enlace copiado';
+          setTimeout(() => compartirBtn.textContent = 'Compartir', 1400);
+        }
+      });
+    }
+
+    searchForm.addEventListener('submit', (event) => {
+      event.preventDefault();
+      mostrarDetalle(searchInput.value.trim());
+    });
+
+    buscarBtn.addEventListener('click', () => {
+      mostrarDetalle(searchInput.value.trim());
+    });
+
+    cargarDatos();
+  </script>
+</body>
+</html>
