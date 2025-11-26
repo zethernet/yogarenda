@@ -98,6 +98,17 @@
     "significado": "Mis saludos al Señor Ganesha.",
     "etiquetas": ["vencer obstáculos", "protección"],
     "fuente": "Yoga"
+  },
+    {
+    "id": "Bliss",
+    "tipo": "mantra",
+    "titulo": "Bliss",
+    "texto": "I am the light of my soul\nI am bountiful, i am beautiful\nI am bliss, i am, i am",
+    "idioma": "Inglés",
+    "devanagari": "Bliss",
+    "significado": "Soy la luz de mi alma\nSoy abundante, soy hermosa\nSoy dicha, soy, soy",
+    "etiquetas": ["conexión interna", "sanación"],
+    "fuente": "Snatam Kaur"
   }
 
 ]
