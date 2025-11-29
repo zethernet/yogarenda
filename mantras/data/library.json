@@ -100,15 +100,14 @@
     "fuente": "Yoga"
   },
     {
-    "id": "Bliss",
-    "tipo": "mantra",
-    "titulo": "Bliss",
-    "texto": "I am the light of my soul\nI am bountiful, i am beautiful\nI am bliss, i am, i am",
-    "idioma": "Inglés",
-    "devanagari": "Bliss",
-    "significado": "Soy la luz de mi alma\nSoy abundante, soy hermosa\nSoy dicha, soy, soy",
-    "etiquetas": ["conexión interna", "sanación"],
-    "fuente": "Snatam Kaur"
+    "id": "Yoga Sutras",
+    "tipo": "Filosofía",
+    "titulo": "Yoga Sutras - Samadhi Padah",
+    "texto": "Om\n\nParamatmaneh namah Sri Patanjala yoga darshanam\n\nAtha Samadhi padah\n\natha yoga anushasanam || 1 ||\nyogash chitta vritti nirodhah || 2 ||\ntada drashtuh svarupe avasthanam || 3 ||\nvritti sarupyam itaratra || 4 ||\nvrittayah pangchatayyah klishta aklishtah || 5 ||\npramaana viparyaya vikalpa nidra smritayah || 6 ||\npratyaksha anumana agamah pramanani || 7 ||\nviparyayo mithya jnanam atadrupa pratishtham || 8 ||\nshabda jnaana anupati vastushunyo vikalpah || 9 ||\nabhava pratyaya alambana vrittir nidra || 10 ||\nanubhuta vishaya asampramoshah smritih || 11 ||\nabhyasa vairagya bhyam tan nirodhah || 12 ||\ntatra sthitau yatno abhyasah || 13 ||\nsa tu dirghakala nairantarya satkara asevito dridhabhumih || 14 ||\ndrishta anushravika vishaya vitrishnnasya vashikara samjna vairagyam || 15 ||\ntat param purusha khyater gunna vaitrishnyam || 16 ||\nvitarka vichara ananda asmita rupa anugamat samprajnatah || 17 ||\nvirama pratyaya abhyasa purvah samskara shesho nyah || 18 ||\nbhava pratyayo videha prakriti layanam || 19 ||\nshraddha virya smriti samadhi prajna purvaka itaresham || 20 ||\ntivra samveganam aasannah || 21 ||\nmridu madhya adhimatratvat tatopi visheshah || 22 ||\nishvara pranidhanad va || 23 ||\nklesha karma vipaka ashayai aparaamrishtah purusha vishesha ishvarah || 24 ||\ntatra niratishayam sarvajna bijam || 25 ||\nsa esha purvesham api guruh kalena anavachedat || 26 ||\ntasya vachakah prannavah || 27 ||\ntajjapas tadartha bhavanam || 28 ||\ntatah pratyakchetana adhigamo pyantaraya bhavash cha || 29 ||\n vyadhi styana samshaya pramada alasya avirati bhrantidarshana alabdhabhumikatva anavasthitatvani chitta vikshepas te antarayah || 30 ||\nduhkha daurmanasya anggamejayatva shvasa prashvasa vikshepa sahabhuvah || 31 ||\ntat pratishedhartham ekatattva bhyasah || 32 ||\nmaitri karuna mudito upekshanam sukha duhkha punya apunya vishayanam bhava natash chitta prasadanam || 33 ||\nprachardana vidharana bhyam va prannasya || 34 ||\nvishayavati va pravrittir utpanna manasah sthitinibandhini || 35 ||\nvishoka va jyotishmati || 36 ||\nvitaraga vishayam va chittam || 37 ||\nsvapna nidra jnana alambanam va || 38 ||\nyatha abhimata dhyanad va || 39 ||\nparamanu paramama hattvanto sya vashikarah || 40 ||\nkshinna vritter abhijatasyev maner grahitr grahanna grahyeshu tatsthatadangjanata samapattih || 41 ||\ntatra shabdartha jnana vikalpaih sankirna savitarka samapattih || 42 ||\nsmriti parishuddhau svarupa shunye varthamatra nirbhasa nirvitarka || 43 ||\netayaiva savichara nirvichara cha sukshmavishaya vyakhyata || 44 ||\nsukshma vishayatvam chalingga paryavasanam || 45 ||\nta eva sabijah samadhih || 46 ||\nnirvichara vaisharadye adhyatma prasadah || 47 ||\nrtanbhara tatr prajna || 48 ||\nshrutanumana prajna bhyam anya vishayaa vishesha arthatvat || 49 ||\ntajjah samskaro nya samskara pratibandhi || 50 ||\ntasyapi nirodhe sarva nirodha nirbijah samadhih || 51 ||\n",
+    "idioma": "Sánscrito",
+    "devanagari": "समाधि पाद",
+    "significado": "Capitulo primero, sobre la concentración.",
+    "etiquetas": ["filosofía", "estudio"],
+    "fuente": "Maharishi Patañjali"
   }
-
 ]
