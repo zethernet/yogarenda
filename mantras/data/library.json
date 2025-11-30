@@ -110,7 +110,7 @@
     "etiquetas": ["filosofía", "estudio"],
     "fuente": "Maharishi Patañjali"
   },
-      {
+  {
     "id": "Ashtanga Yoga mantra inicio",
     "tipo": "mantra",
     "titulo": "Ashtanga Yoga mantra de inicio",
@@ -119,6 +119,17 @@
     "devanagari": "ॐ\n\nवन्दे गुरूणां चरणारविन्दे सन्दर्शितस्वात्मसुखावबोधे ।\nनिःश्रेयसे जाङ्गलिकायमाने संसारहालाहलमोहशान्त्यै ॥\nआबाहुपुरुषाकारं शङ्खचक्रासिधारिणम् ।\nसहस्रशिरसं श्वेतं प्रणमामि पतञ्जलिम् ॥",
     "significado": "Om\n\nRezo a los pies de loto del gurú supremo\nQue enseña su saber, despertando la gran alegría del Ser revelado\nQue actúa como médico de la jungla\nCapaz de eliminar la decepción del veneno de una existencia condicionada.\nAnte Patanjali, encarnación de Adisesa, que con su color blanco,\nmil cabezas radiantes (en su forma de serpiente divina, Ananta)\ny su aspecto humano a partir de los hombros empuña\nla espada de la discriminación\njunto a una rueda de fuego que simboliza el tiempo infinito\ny una caracola que representa para él el sonido divino,\nMe postro\n\nOm",
     "etiquetas": ["guía", "reverencia"],
+    "fuente": "Ashtanga Yoga"
+  },
+  {
+    "id": "Ashtanga Yoga mantra final",
+    "tipo": "mantra",
+    "titulo": "Ashtanga Yoga mantra final",
+    "texto": "Om\n\nSwasthi-praja bhyam pari pala yantam\nNya-yena margena mahi-mahishaha\nGo-bramanebhyaha-shuhamastu-niyam\nLokaha-samastha sukhino bhavanthu\n\nOm",
+    "idioma": "Sánscrito",
+    "devanagari": "ॐ\n\nस्वस्तिप्रजाभ्यः परिपालयन्तां न्यायेन मार्गेण महीं महीशाः।\nगोब्राह्मणेभ्यः शुभमस्तु नित्यं लोकाः समस्ताः सुखिनो भवन्तु ॥\nॐ शान्तिः शान्तिः शान्तिः ।",
+    "significado": "Om\n\nGloria a la prosperidad\nQue los gobernantes guíen el mundo con ley y justicia\nQue todas las cosas sagradas gocen de protección\nY que los habitantes del mundo sean felices y prósperos\n\nOm paz paz paz",
+    "etiquetas": ["prosperidad", "paz"],
     "fuente": "Ashtanga Yoga"
   }
 ]
