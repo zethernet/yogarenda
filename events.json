@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "Taller de Introducción al Ashtanga",
+    "subtitulo": "Respiración, bandhas y mirada interna",
+    "imagen": "assets/evento-ashtanga-intro.jpg",
+    "fecha": "2026-03-15"
+  },
+  {
+    "titulo": "Mañana de práctica Mysore",
+    "subtitulo": "Práctica guiada + meditación",
+    "imagen": "assets/evento-mysore-manana.jpg",
+    "fecha": "2026-04-05"
+  },
+  {
+    "titulo": "Encuentro de mantras y silencio",
+    "subtitulo": "Canto de mantras, pranayama y meditación",
+    "imagen": "assets/evento-mantras.jpg",
+    "fecha": "2026-05-10"
+  }
+]
