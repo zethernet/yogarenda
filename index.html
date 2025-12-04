@@ -1,1 +1,329 @@
-<h1><center>Yoga Renda</center></h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Yoga Renda – Ashtanga Estilo Mysore</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Fuente Roboto desde Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER / NAV -->
+  <header class="site-header">
+    <div class="container header-content">
+      <div class="logo-area">
+        <img src="assets/logo-yoga-renda.png" alt="Yoga Renda" class="logo" />
+        <div class="logo-text">
+          <span class="brand-name">Yoga Renda</span>
+          <span class="brand-tagline">Ashtanga estilo Mysore</span>
+        </div>
+      </div>
+
+      <button class="nav-toggle" aria-label="Abrir menú">
+        ☰
+      </button>
+
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="#inicio">Inicio</a></li>
+
+          <li class="has-submenu">
+            <button class="submenu-toggle">Yoga Renda</button>
+            <ul class="submenu">
+              <li><a href="#mision">Misión</a></li>
+              <li><a href="#vision">Visión</a></li>
+              <li><a href="#valores">Valores</a></li>
+            </ul>
+          </li>
+
+          <li class="has-submenu">
+            <button class="submenu-toggle">Clases</button>
+            <ul class="submenu">
+              <li><a href="#clases">Horarios</a></li>
+              <li><a href="#cuotas">Cuotas</a></li>
+              <li><a href="#ubicacion">Ubicación</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#eventos">Eventos</a></li>
+
+          <li class="has-submenu">
+            <button class="submenu-toggle">Recursos</button>
+            <ul class="submenu">
+              <li><a href="#comunidad">Comunidad</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO + CARRUSEL -->
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <h1>Transitamos el camino hacia la autorrealización</h1>
+        <p>
+          Un espacio para cultivar la calma, la disciplina y la autoobservación
+          a través de la práctica de Ashtanga Yoga, meditación y mantras.
+        </p>
+        <a href="#clases" class="btn-primary">Ver horarios de práctica</a>
+      </div>
+
+      <div class="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/carrusel1.jpg" alt="Práctica de Ashtanga Yoga" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/carrusel2.jpg" alt="Sala de Yoga Renda" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/carrusel3.jpg" alt="Práctica Mysore" />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/carrusel4.jpg" alt="Meditación y mantras" />
+          </div>
+        </div>
+
+        <button class="carousel-control prev" aria-label="Imagen anterior">‹</button>
+        <button class="carousel-control next" aria-label="Imagen siguiente">›</button>
+
+        <div class="carousel-indicators">
+          <button class="indicator active" data-slide="0"></button>
+          <button class="indicator" data-slide="1"></button>
+          <button class="indicator" data-slide="2"></button>
+          <button class="indicator" data-slide="3"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- MISION / VISION / VALORES -->
+    <section id="mision" class="section-light">
+      <div class="container two-column">
+        <div>
+          <h2>Misión</h2>
+          <p>
+            En Yoga Renda transitamos el camino hacia la autorrealización. Nuestro espacio
+            busca cultivar la calma, la disciplina y la autoobservación a través de prácticas
+            de yoga como la meditación, las asanas, la respiración, el canto de mantras,
+            el pranayama y otras actividades que nos ayudan a alcanzar mayor claridad
+            y bienestar integral.
+          </p>
+          <p>
+            Creemos en el poder de una práctica amorosa y constante, y en la fuerza de la
+            comunidad y su comunicación interna.
+          </p>
+        </div>
+        <div id="vision">
+          <h2>Visión</h2>
+          <p>
+            Somos una comunidad viva y consciente donde el yoga es un camino compartido hacia
+            el bienestar, el crecimiento personal y la conexión con los demás. Aspiramos a
+            seguir expandiendo esta energía en cada práctica, cada encuentro y cada persona
+            que forma parte de Yoga Renda.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="valores" class="section-dark">
+      <div class="container">
+        <h2>Valores</h2>
+        <div class="values-grid">
+          <article class="value-card">
+            <h3>Comunidad</h3>
+            <p>
+              Creemos que el crecimiento verdadero ocurre cuando caminamos juntos.
+              Valoramos el encuentro, el apoyo mutuo y la construcción de vínculos
+              auténticos a través de la práctica compartida.
+            </p>
+          </article>
+          <article class="value-card">
+            <h3>Comunicación</h3>
+            <p>
+              Fomentamos una comunicación abierta, honesta y empática como base
+              de una convivencia consciente. Escuchamos con compasión y nos
+              expresamos amorosamente.
+            </p>
+          </article>
+          <article class="value-card">
+            <h3>Presencia</h3>
+            <p>
+              Buscamos vivir cada momento con atención plena, cultivando la
+              conciencia en cada respiración, en cada movimiento y en cada silencio.
+            </p>
+          </article>
+          <article class="value-card">
+            <h3>Autoconocimiento</h3>
+            <p>
+              El yoga es un camino hacia el descubrimiento interior. A través de la práctica,
+              exploramos quiénes somos y cómo podemos vivir con mayor claridad y propósito.
+            </p>
+          </article>
+          <article class="value-card">
+            <h3>Disciplina</h3>
+            <p>
+              Honramos la constancia, el compromiso y la entrega. La práctica sostenida es
+              el medio que transforma, fortalece y purifica cuerpo y mente.
+            </p>
+          </article>
+          <article class="value-card">
+            <h3>Gratitud y Calma</h3>
+            <p>
+              Reconocemos con humildad la oportunidad de practicar y compartir. Promovemos
+              un estado de quietud interior en el que florecen la claridad, la compasión
+              y la conexión con el ser.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLASES -->
+    <section id="clases" class="section-light">
+      <div class="container">
+        <h2>Clases de Ashtanga Yoga – Estilo Mysore</h2>
+        <p class="section-intro">
+          Prácticas de Ashtanga Yoga adaptadas a cada cuerpo, en un espacio cuidado y silencioso.
+        </p>
+
+        <div class="info-grid">
+          <div class="info-block">
+            <h3>Horarios</h3>
+            <ul class="info-list">
+              <li><strong>Lunes a viernes:</strong> Abierto 06:00 (ingreso hasta las 08:00)</li>
+              <li><strong>Lunes a viernes:</strong> Abierto 18:30 (ingreso hasta las 19:30)</li>
+              <li><strong>Sábados:</strong> Abierto 07:00 (ingreso hasta las 09:00)</li>
+            </ul>
+            <p class="note">
+              La práctica dura aproximadamente 1 hora para iniciantes.
+            </p>
+          </div>
+
+          <div id="cuotas" class="info-block">
+            <h3>Cuotas</h3>
+            <ul class="info-list">
+              <li><strong>Pase libre:</strong> Gs. 500.000</li>
+              <li><strong>8 prácticas:</strong> Gs. 480.000</li>
+              <li><strong>12 prácticas:</strong> Gs. 450.000</li>
+              <li><strong>Clase suelta:</strong> Gs. 100.000</li>
+            </ul>
+            <p class="note">
+              Las cuotas son mensuales. Las clases se recuperan dentro del mes abonado.
+            </p>
+          </div>
+
+          <div id="ubicacion" class="info-block">
+            <h3>Ubicación</h3>
+            <p><strong>Dirección:</strong><br />
+              25 de Mayo 989 c/ Estados Unidos.
+            </p>
+            <p class="note">
+              Llegá unos minutos antes para instalarte en la sala con calma.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EVENTOS (con datos desde JSON) -->
+    <section id="eventos" class="section-dark">
+      <div class="container">
+        <h2>Próximos eventos</h2>
+        <p class="section-intro">
+          Talleres, retiros y espacios especiales para profundizar en la práctica.
+        </p>
+
+        <div id="eventos-lista" class="events-grid">
+          <!-- Aquí se insertan dinámicamente las tarjetas de eventos -->
+        </div>
+
+        <p id="eventos-vacio" class="events-empty">
+          Aún no hay eventos cargados. Vuelve pronto o suscríbete a nuestras novedades.
+        </p>
+      </div>
+    </section>
+
+    <!-- COMUNIDAD -->
+    <section id="comunidad" class="section-light">
+      <div class="container two-column">
+        <div>
+          <h2>Comunidad Yoga Renda</h2>
+          <p>
+            Somos una comunidad viva que se sostiene en la práctica, el respeto y la escucha.
+            Cada persona aporta su proceso y su presencia, y juntas construimos un espacio
+            de apoyo y crecimiento.
+          </p>
+        </div>
+        <div>
+          <h3>¿Cómo participar?</h3>
+          <ul class="info-list">
+            <li>Iniciá tu práctica en las clases Mysore.</li>
+            <li>Participá de retiros, talleres y encuentros especiales.</li>
+            <li>Sumate a nuestra biblioteca de mantras y materiales.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section-dark">
+      <div class="container two-column">
+        <div>
+          <h2>Contacto</h2>
+          <p>
+            Para consultas sobre clases, eventos o inscripciones,
+            escribinos o enviá un mensaje.
+          </p>
+          <ul class="info-list">
+            <li><strong>Dirección:</strong> 25 de Mayo 989 c/ Estados Unidos.</li>
+            <!-- Completar con tus datos reales -->
+            <li><strong>WhatsApp:</strong> +595 XXX XXX XXX</li>
+            <li><strong>Email:</strong> contacto@yogarenda.com</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Formulario básico (solo visual)</h3>
+          <form class="contact-form" onsubmit="event.preventDefault(); alert('Esta es una maqueta. Integra aquí tu backend o servicio de correo.');">
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" type="text" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Correo electrónico</label>
+              <input id="email" type="email" required />
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Enviar mensaje</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Yoga Renda – Ashtanga estilo Mysore</p>
+      <p class="footer-credit">
+        Espacio para la calma, la disciplina y la autoobservación.
+      </p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
