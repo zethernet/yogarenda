@@ -142,5 +142,16 @@
     "significado": "Poderoso canto que se utiliza para la conexión con lo divino y la elevación espiritual.",
     "etiquetas": ["consciencia amorosa", "gozo del corazón"],
     "fuente": "Upanishad"
+  },
+     {
+    "id": "soul",
+    "tipo": "mantra",
+    "titulo": "I am the light",
+    "texto": "I am the light of my soul\nI am bountiful, I am beautiful\nI am bliss, I am, I am",
+    "idioma": "Inglés",
+    "devanagari": "Soul",
+    "significado": "Mantra de bendición",
+    "etiquetas": ["Luz del alma", "bendición"],
+    "fuente": "Yoga"
   }
 ]
