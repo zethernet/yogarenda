@@ -131,5 +131,16 @@
     "significado": "Om\n\nGloria a la prosperidad\nQue los gobernantes guíen el mundo con ley y justicia\nQue todas las cosas sagradas gocen de protección\nY que los habitantes del mundo sean felices y prósperos\n\nOm paz paz paz",
     "etiquetas": ["prosperidad", "paz"],
     "fuente": "Ashtanga Yoga"
+  },
+    {
+    "id": "Maha Mantra",
+    "tipo": "mantra",
+    "titulo": "Hare Krishna",
+    "texto": "Hare Krishna\nHare Krishna\nKrishna Krishna\nHare Hare\n\nHare Rama\nHare Rama\nRama Rama\nHare Hare",
+    "idioma": "Sánscrito",
+    "devanagari": "हरे कृष्ण हरे कृष्ण, कृष्ण कृष्ण हरे हरे । हरे राम हरे राम, राम राम हरे हरे",
+    "significado": "Poderoso canto que se utiliza para la conexión con lo divino y la elevación espiritual.",
+    "etiquetas": ["consciencia amorosa", "gozo del corazón"],
+    "fuente": "Upanishad"
   }
 ]
