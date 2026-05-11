@@ -1,20 +1,20 @@
 [
   {
-    "titulo": "Taller de Introducción al Ashtanga",
-    "subtitulo": "Respiración, bandhas y mirada interna",
-    "imagen": "assets/evento-ashtanga-intro.jpg",
-    "fecha": "2026-03-15"
+    "titulo": "Intensivo de Invierno",
+    "subtitulo": "Julio 2026",
+    "imagen": "assets/intensivo-invierno-2026.jpg",
+    "fecha": "01-Julio-2026"
   },
   {
-    "titulo": "Mañana de práctica Mysore",
-    "subtitulo": "Práctica guiada + meditación",
-    "imagen": "assets/evento-mysore-manana.jpg",
-    "fecha": "2026-04-05"
+    "titulo": "Práctica Guiada",
+    "subtitulo": "Último sábado del mes",
+    "imagen": "assets/practica-guiada-mayo.jpg",
+    "fecha": "30-Mayo-2026"
   },
   {
-    "titulo": "Encuentro de mantras y silencio",
-    "subtitulo": "Canto de mantras, pranayama y meditación",
-    "imagen": "assets/evento-mantras.jpg",
-    "fecha": "2026-05-10"
+    "titulo": "Kirtan",
+    "subtitulo": "Canto de mantras en comunidad",
+    "imagen": "assets/kirtan-junio.jpg",
+    "fecha": "15-06-2026"
   }
 ]
